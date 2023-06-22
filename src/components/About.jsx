@@ -12,7 +12,7 @@ const About = (props) => {
           </div>
           
           <button className="justify-end" onClick={() => props.setTrigger(false)}>
-            <img className="h-7 w-7.5"src='/src/assets/x-button.png' alt="folder-image"/>
+            <img className="h-7 w-7.5 hover:h-6"src='/src/assets/x-button.png' alt="folder-image"/>
           </button> 
         </div>
         
