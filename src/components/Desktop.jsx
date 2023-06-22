@@ -1,10 +1,12 @@
 import React from 'react'
+import About from './About';
 import { useEffect, useState } from 'react'
 
 const Desktop = () => {
+    const [aboutPopUp, setAboutPopUp] = useState(false);
   return (
     <div className="flex flex-col">
-        <div className="grid grid-cols-3 gap-0">
+        <div className="grid grid-rows-3 gap-0">
             <div className="scale-50">
                 <img src='/src/assets/folder-icon.png' alt="folder-image"/>
             </div>
@@ -17,13 +19,15 @@ const Desktop = () => {
             <div className="scale-50">
                 <img src='/src/assets/folder-icon.png' alt="folder-image"/>
             </div>
-            <button className='w-24 h-30 flex flex-col'>
-                    <img className="w-24 h-26" src='/src/assets/folder-icon.png' alt="folder-image"/>
-                    <label className="text-center">about</label>
+            <button onClick={() => setAboutPopUp(true)} className='w-24 h-30 flex flex-col scale-50'>
+                    <img className="" src='/src/assets/folder-icon.png' alt="folder-image"/>
+                    <label className="text-2xl">about</label>
             </button>
+            
             
 
         </div>
+        <About trigger={aboutPopUp} setTrigger={setAboutPopUp}></About>
     </div>
   )
 }
