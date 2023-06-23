@@ -39,6 +39,27 @@ import {
       title: "Contact",
     },
   ];
+
+  export const desktopButtons = [
+    {
+      id: "about",
+      title: "About",
+      image_title:"/src/assets/folder-icon.png",
+      alt_image_title: "foler-image",
+    },
+    {
+      id: "work",
+      title: "Work",
+      image_title:"/src/assets/folder-icon.png",
+      alt_image_title: "foler-image",
+    },
+    {
+      id: "contact",
+      title: "Contact",
+      image_title:"/src/assets/folder-icon.png",
+      alt_image_title: "foler-image",
+    },
+  ];
   
   const services = [
     {
