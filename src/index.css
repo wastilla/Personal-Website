@@ -11,6 +11,15 @@
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   color-scheme: dark;
+  
+}
+
+.App{
+  cursor: url("./assets/cursor.png"), auto;
+}
+
+button{
+  cursor: url("./assets/pointer-cursor.png"), auto;
 }
 
 .hash-span {

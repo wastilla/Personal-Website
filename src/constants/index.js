@@ -60,6 +60,12 @@ import {
       alt_image_title: "foler-image",
     },
   ];
+
+  export const about = [
+    {
+      name: "hshssh",
+    }
+  ]
   
   const services = [
     {

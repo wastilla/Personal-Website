@@ -1,10 +1,36 @@
 import React from 'react'
 import About from './About';
+import Popup from './Popup';
 import { useEffect, useState } from 'react'
-import { desktopButtons } from '../constants';
+import { desktopButtons, about } from '../constants';
 
 const Desktop = () => {
-    const [aboutPopUp, setAboutPopUp] = useState(false);
+    const [PopUp, setPopUp] = useState(false);
+    const [contentId, setContentId] = useState("");
+
+    var contentid;
+
+    function handleButtonClick(buttonId){
+        switch (buttonId) {
+            case 'about':
+            setContentId("about");
+              console.log(contentid)
+              setPopUp(true)
+              break;
+            case 'work':
+              setContentId("work");
+              console.log(contentid)
+              setPopUp(true)
+              break;
+            case 'contact':
+                console.log("here")
+              setContentId("contact");
+              console.log(contentid)
+              setPopUp(true)
+            default:
+              break;
+        }
+    }
 
   return (
     <div className='flex'>
@@ -12,20 +38,15 @@ const Desktop = () => {
             <div className="grid grid-rows-3 gap-0">
                 {desktopButtons.map((button) =>(
                     <button key={button.id} onClick={() => 
-                    { 
-                        switch(button.title){
-                        case 'About':
-                            return setAboutPopUp(true)
-                        } 
-                    }  } className='w-24 h-30 flex flex-col scale-50'>
-                        <img className="" src={button.image_title} alt={button.alt_image_title}/>
+                    { handleButtonClick(button.id) }  } className='w-24 h-30 flex flex-col scale-50'>
+                        <img src={button.image_title} alt={button.alt_image_title}/>
                         <label className="text-2xl">{button.title}</label>
                     </button>
                 ))}
             </div>
            
         </div>
-        <About trigger={aboutPopUp} setTrigger={setAboutPopUp}></About>
+        {contentId && <Popup trigger={PopUp} setTrigger={setPopUp} contentid={contentId}/>}
     </div>
   )
 }

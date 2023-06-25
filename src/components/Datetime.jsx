@@ -14,7 +14,7 @@ export const Datetime = () => {
 
     return(
         <div className="whitespace-nowrap">
-            <p>{Moment(date).format('HH:mm')} {Moment(date).format('MMM d')}</p>
+            <p>{Moment(date).format('HH:mm')} {Moment(date).format('MMM D')}</p>
         </div>
     )
 }

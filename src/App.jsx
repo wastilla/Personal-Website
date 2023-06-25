@@ -6,7 +6,7 @@ import BottomBar from "./components/BottomBar";
 const App = () => {
   return ( 
     <BrowserRouter className="bg-white">
-      <div className="h-screen flex flex-col relative z-0 bg-primary">
+      <div className="App h-screen flex flex-col relative z-0 bg-primary">
         
         {/* <Navbar className=""/> */}
         {/* <Hero /> */}
