@@ -48,6 +48,18 @@ import {
       alt_image_title: "foler-image",
     },
     {
+      id: "projects",
+      title: "Projects",
+      image_title:"/src/assets/folder-icon.png",
+      alt_image_title: "foler-image",
+    },
+    {
+      id: "experience",
+      title: "Experience",
+      image_title:"/src/assets/folder-icon.png",
+      alt_image_title: "foler-image",
+    },
+    {
       id: "work",
       title: "Work",
       image_title:"/src/assets/folder-icon.png",

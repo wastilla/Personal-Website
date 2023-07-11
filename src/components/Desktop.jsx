@@ -40,7 +40,7 @@ const Desktop = () => {
                     <button key={button.id} onClick={() => 
                     { handleButtonClick(button.id) }  } className='w-24 h-30 flex flex-col scale-50'>
                         <img src={button.image_title} alt={button.alt_image_title}/>
-                        <label className="text-2xl">{button.title}</label>
+                        <label className="text-3xl">{button.title}</label>
                     </button>
                 ))}
             </div>
