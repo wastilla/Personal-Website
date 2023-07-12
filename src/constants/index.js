@@ -60,12 +60,6 @@ import {
       alt_image_title: "foler-image",
     },
     {
-      id: "work",
-      title: "Work",
-      image_title:"/src/assets/folder-icon.png",
-      alt_image_title: "foler-image",
-    },
-    {
       id: "contact",
       title: "Contact",
       image_title:"/src/assets/folder-icon.png",
@@ -237,7 +231,8 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      id: '0',
+      name: "Car-Rent",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
@@ -258,6 +253,7 @@ import {
       source_code_link: "https://github.com/",
     },
     {
+      id: '1',
       name: "Job IT",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
@@ -279,6 +275,7 @@ import {
       source_code_link: "https://github.com/",
     },
     {
+      id: '2',
       name: "Trip Guide",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",

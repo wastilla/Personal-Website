@@ -13,12 +13,16 @@ const Desktop = () => {
     function handleButtonClick(buttonId){
         switch (buttonId) {
             case 'about':
-            setContentId("about");
+              setContentId("about");
+              setPopUp(true)
+              break;
+            case 'projects':
+              setContentId("projects");
               console.log(contentid)
               setPopUp(true)
               break;
-            case 'work':
-              setContentId("work");
+            case 'experience':
+              setContentId("experience");
               console.log(contentid)
               setPopUp(true)
               break;

@@ -1,9 +1,9 @@
 import React from 'react'
 import { ComputersCanvas } from './canvas'
 import About from './About';
-import Works from './Works';
+import Projects from './Projects';
 import Contact from './Contact';
-
+import Experience from './Experience';
 
 const Popup = (props) => {
 
@@ -16,9 +16,11 @@ const Popup = (props) => {
         case 'about':
             childView = <About/>
             break;
-        case 'work':
-            childView = <Works></Works>
+        case 'projects':
+            childView = <Projects/>
             break;
+        case 'experience':
+            childView = <Experience/>
         case 'contact':
             childView = <Contact/>
             break;
