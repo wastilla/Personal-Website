@@ -26,10 +26,21 @@ const Projects = () => {
           
         </div>
         <div className='text-black p-3 bg-white drop-shadow-2xl border border-gray-400 flex flex-col'>
-          <text className='pb-2 text-xl'>Description: </text>
+        <div className='sm:self-center p-5'>
+            <img className="w-36" src={projects[selectedProject].image} alt="loading..." />
+          </div>
+          <text className='pb-1 text-2xl font-bold'>Description: </text>
           <text>{projects[selectedProject].description}</text>
-          <text className='pb-2 text-xl'>Team: </text>
-          <text>{projects[selectedProject].team}</text>
+          
+          <text className='pb-1 text-2xl font-bold'>Team: </text>
+          <text className='pb-2'>{projects[selectedProject].team}</text>
+          <text className='pb-1 text-2xl font-bold'>Tech Used:</text>
+          <div className='flex flex-col'>
+            {projects[selectedProject].tech.map((tech) =>(
+              <text>{tech}</text>
+            ))}
+          </div>
+          
         </div>
       </div>
     );
