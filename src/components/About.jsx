@@ -13,9 +13,10 @@ const About = (props) => {
       <div className="p-3 bg-white drop-shadow-2xl border border-gray-400">
         <div className="flex items-center">
           <div className="grid grid-cols-2 gap-3 text-black">
-            <div>W
-              
+            <div>
+              <img className="scale-25" src='/src/assets/website-logo.png' alt="folder-image"/>
             </div>
+            <div>
             <div>William Astilla
               <div className="pl-5">
                 iOS Developer
@@ -56,6 +57,8 @@ const About = (props) => {
               <div className="pl-10">
                 Thrifting
               </div>
+            </div>
+            
             </div>
           </div>
         </div>

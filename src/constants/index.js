@@ -45,25 +45,25 @@ import {
       id: "about",
       title: "About",
       image_title:"/src/assets/folder-icon.png",
-      alt_image_title: "foler-image",
+      alt_image_title: "folder-image",
     },
     {
       id: "projects",
       title: "Projects",
       image_title:"/src/assets/folder-icon.png",
-      alt_image_title: "foler-image",
+      alt_image_title: "folder-image",
     },
     {
       id: "experience",
       title: "Experience",
       image_title:"/src/assets/folder-icon.png",
-      alt_image_title: "foler-image",
+      alt_image_title: "folder-image",
     },
     {
       id: "contact",
       title: "Contact",
       image_title:"/src/assets/folder-icon.png",
-      alt_image_title: "foler-image",
+      alt_image_title: "folder-image",
     },
   ];
 
@@ -232,9 +232,10 @@ import {
   const projects = [
     {
       id: '0',
-      name: "Car-Rent",
+      name: "CV Clock",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      tech:[],
       tags: [
         {
           name: "react",
@@ -254,9 +255,10 @@ import {
     },
     {
       id: '1',
-      name: "Job IT",
+      name: "Luminary",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Luminary is an iOS app{\n}another line",
+      tech:[],
       tags: [
         {
           name: "react",
@@ -276,9 +278,56 @@ import {
     },
     {
       id: '2',
-      name: "Trip Guide",
+      name: "Shazamify",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tech:[],
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+    },
+    {
+      id: '3',
+      name: "House Tab",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tech:[],
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+    },
+    {
+      id: '4',
+      name: "CSXL Site",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tech:[],
       tags: [
         {
           name: "nextjs",
