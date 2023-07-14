@@ -13,7 +13,7 @@ const About = (props) => {
       <div className="p-3 bg-white drop-shadow-2xl border border-gray-400">
         <div className="flex items-center">
           <div className="grid grid-cols-2 gap-3 text-black">
-            <div>
+            <div className='self-center justify-center align-middle'>
               <img className="scale-25" src='/src/assets/website-logo.png' alt="folder-image"/>
             </div>
             <div>

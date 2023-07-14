@@ -44,7 +44,7 @@ import {
     {
       id: "about",
       title: "About",
-      image_title:"/src/assets/folder-icon.png",
+      image_title:"/src/assets/about-icon.png",
       alt_image_title: "folder-image",
     },
     {
@@ -56,13 +56,13 @@ import {
     {
       id: "experience",
       title: "Experience",
-      image_title:"/src/assets/folder-icon.png",
+      image_title:"/src/assets/experience-icon.png",
       alt_image_title: "folder-image",
     },
     {
       id: "contact",
       title: "Contact",
-      image_title:"/src/assets/folder-icon.png",
+      image_title:"/src/assets/contact-icon.png",
       alt_image_title: "folder-image",
     },
   ];
@@ -234,7 +234,7 @@ import {
       id: '0',
       name: "CV Clock",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A clock that harnesses the power of computer vision and facial recognition to help our unpunctual friends. This clock can be trained to recognize a specific individual and when they look at the clock, it will display a time 15 minutes in the future in an atempt to get these individuals out of the door faster",
       tech:[],
       tags: [
         {

@@ -31,7 +31,7 @@ const Popup = (props) => {
       <div className='flex flex-col space-y-2'>
         <div className="flex flex-row">
           <div className="flex basis-full">
-            <img className="h-7 w-8"src='/src/assets/folder-icon.png' alt="folder-image"/>
+            <img className="h-7 w-8"src={"/src/assets/" + contentid + "-icon.png"} alt="folder-image"/>
             <p>{contentid}</p>
           </div>
           
