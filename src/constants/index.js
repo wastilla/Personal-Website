@@ -236,6 +236,7 @@ import {
       description:
         "A clock that harnesses the power of computer vision and facial recognition to help our unpunctual friends. This clock can be trained to recognize a specific individual and when they look at the clock, it will display a time 15 minutes in the future in an atempt to get these individuals out of the door faster",
       tech:[],
+      team:"This project was completed by myself and two other engineers",
       tags: [
         {
           name: "react",
@@ -257,8 +258,9 @@ import {
       id: '1',
       name: "Luminary",
       description:
-        "Luminary is an iOS app{\n}another line",
+        "Luminary is an iOS app built for Tarheels at the Table, a student organization of disabled and disability-allied students looking to make UNC Chapel Hill more accessible. Luminary allows for easy posting of accessibility concerns / barriers around UNC's campus. Additionally, the app provides auditory and visual navigation around campus that takes into account the posted inaccessibilities.",
       tech:[],
+      team:"This project is currently being completed on a production team of App Team Carolina. The team consists of 12 engineers, designers, and product managers.",
       tags: [
         {
           name: "react",
@@ -282,6 +284,7 @@ import {
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tech:[],
+      team:"I completed this project individually :D",
       tags: [
         {
           name: "nextjs",
@@ -305,6 +308,7 @@ import {
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tech:[],
+      team:"This project was completed by myself and two other engineers",
       tags: [
         {
           name: "nextjs",
@@ -328,6 +332,99 @@ import {
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tech:[],
+      team:"This project was completed by myself and 3 other engineers for COMP 423: Introduction to Software Engineering",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+    },
+    {
+      id: '5',
+      name: "Akari",
+      description:"",
+      tech:[],
+      team:"",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+    },
+    {
+      id: '6',
+      name: "Horoscopey",
+      description:"",
+      tech:[],
+      team:"",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+    },
+    {
+      id: '7',
+      name: "Weathery",
+      description:"",
+      tech:[],
+      team:"",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+    },
+    {
+      id: '8',
+      name: "Road.io",
+      description:"",
+      tech:[],
+      team:"",
       tags: [
         {
           name: "nextjs",

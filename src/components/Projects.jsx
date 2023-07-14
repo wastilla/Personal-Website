@@ -25,9 +25,12 @@ const Projects = () => {
           </div>
           
         </div>
-        
-        
-        <div className='text-black p-3 bg-white drop-shadow-2xl border border-gray-400 flex flex-wrap flex-row'>{projects[selectedProject].description}</div>
+        <div className='text-black p-3 bg-white drop-shadow-2xl border border-gray-400 flex flex-col'>
+          <text className='pb-2 text-xl'>Description: </text>
+          <text>{projects[selectedProject].description}</text>
+          <text className='pb-2 text-xl'>Team: </text>
+          <text>{projects[selectedProject].team}</text>
+        </div>
       </div>
     );
   } else {
