@@ -1,6 +1,8 @@
 import React from 'react'
 import About from './About';
 import Popup from './Popup';
+import BottomBar from './BottomBar';
+
 import { useEffect, useState } from 'react'
 import { desktopButtons, about } from '../constants';
 
@@ -37,7 +39,7 @@ const Desktop = () => {
     }
 
   return (
-    <div className='flex'>
+    <div className="flex h-fit">
         <div className="flex flex-col">
             <div className="grid grid-rows-3 gap-0">
                 {desktopButtons.map((button) =>(

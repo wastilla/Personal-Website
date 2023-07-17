@@ -19,7 +19,7 @@ const App = () => {
       			setScreenSize(getCurrentDimension())
     		}
     		window.addEventListener('resize', updateDimension);
-    
+        console.log(screenSize.width)
 		
     		return(() => {
         		window.removeEventListener('resize', updateDimension);
@@ -28,24 +28,20 @@ const App = () => {
 
   return ( 
     <BrowserRouter className="bg-white">
-      <div className="App h-screen flex flex-col relative z-0 bg-primary">
+      <div className="App flex flex-col relative z-0 bg-primary min-h-screen bg-[url('/src/assets/windows_bg.png')] bg-cover bg-no-repeat bg-center justify-between">
         
         {/* <Navbar className=""/> */}
         {/* <Hero /> */}
         {/* <div className=""> */}
-        {screenSize.height >= 570 ? (
-          <div className="h-full bg-[url('/src/assets/windows_bg.png')] bg-cover bg-no-repeat bg-center">
+        <div className="h-fit">
             <Desktop/> 
-          </div>
-        ) : (
-          <div className="h-fit bg-[url('/src/assets/windows_bg.png')] bg-cover bg-no-repeat bg-center">
-            <Desktop/> 
-          </div>
-        )}
-        
+        </div>
+
         <BottomBar/>
+        
 
       </div>
+      
     </BrowserRouter>
   )
 }

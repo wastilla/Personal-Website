@@ -259,7 +259,7 @@ import {
       name: "Luminary",
       description:
         "Luminary is an iOS app built for Tarheels at the Table, a student organization of disabled and disability-allied students looking to make UNC Chapel Hill more accessible. Luminary allows for easy posting of accessibility concerns / barriers around UNC's campus. Additionally, the app provides auditory and visual navigation around campus that takes into account the posted inaccessibilities.",
-      tech:["Swift", "SwiftUI", "UIKit", "MapKit", "CoreLocation"],
+      tech:["Swift", "SwiftUI", "UIKit", "MapKit", "CoreLocation", "b", "b", "b"],
       team:"This project is currently being completed on a production team of App Team Carolina. The team consists of 12 engineers, designers, and product managers.",
       tags: [
         {
