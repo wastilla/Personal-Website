@@ -252,6 +252,7 @@ import {
         },
       ],
       image: null,
+      landscape: false,
       source_code_link: "https://github.com/",
     },
     {
@@ -276,6 +277,7 @@ import {
         },
       ],
       image: "/src/assets/luminary-demo.gif",
+      landscape: true,
       source_code_link: "https://github.com/",
     },
     {
@@ -300,6 +302,7 @@ import {
         },
       ],
       image: "/src/assets/shazamify.gif",
+      landscape: true,
       source_code_link: "https://github.com/",
     },
     {
@@ -324,6 +327,7 @@ import {
         },
       ],
       image: tripguide,
+      landscape: false,
       source_code_link: "https://github.com/",
     },
     {
@@ -347,7 +351,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: "/src/assets/csxl-site-demo.gif",
+      landscape: false,
       source_code_link: "https://github.com/",
     },
     {
@@ -371,6 +376,7 @@ import {
         },
       ],
       image: tripguide,
+      landscape: false,
       source_code_link: "https://github.com/",
     },
     {
@@ -394,6 +400,7 @@ import {
         },
       ],
       image: tripguide,
+      landscape: true,
       source_code_link: "https://github.com/",
     },
     {
@@ -417,6 +424,7 @@ import {
         },
       ],
       image: "/src/assets/weatherapp2.0.gif",
+      landscape: true,
       source_code_link: "https://github.com/",
     },
     {
@@ -440,6 +448,7 @@ import {
         },
       ],
       image: "/src/assets/roadio-demo.gif",
+      landscape: true,
       source_code_link: "https://github.com/",
     },
   ];
