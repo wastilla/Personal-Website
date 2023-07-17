@@ -237,48 +237,18 @@ import {
         "A clock that harnesses the power of computer vision and facial recognition to help our unpunctual friends. This clock can be trained to recognize a specific individual and when they look at the clock, it will display a time 15 minutes in the future in an atempt to get these individuals out of the door faster",
       tech:["Raspberri Pi", "Python", "Open CV", "Tkinter", "3D Printing", "Laser Cutting"],
       team:"This project was completed by myself and two other engineers",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: null,
+      image: "/src/assets/cv-clock.png",
       landscape: false,
-      source_code_link: "https://github.com/",
     },
     {
       id: '1',
       name: "Luminary",
       description:
         "Luminary is an iOS app built for Tarheels at the Table, a student organization of disabled and disability-allied students looking to make UNC Chapel Hill more accessible. Luminary allows for easy posting of accessibility concerns / barriers around UNC's campus. Additionally, the app provides auditory and visual navigation around campus that takes into account the posted inaccessibilities.",
-      tech:["Swift", "SwiftUI", "UIKit", "MapKit", "CoreLocation", "b", "b", "b"],
+      tech:["Swift", "SwiftUI", "UIKit", "MapKit", "CoreLocation"],
       team:"This project is currently being completed on a production team of App Team Carolina. The team consists of 12 engineers, designers, and product managers.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: "/src/assets/luminary-demo.gif",
+      image: "/src/assets/luminary-demo-2.gif",
       landscape: true,
-      source_code_link: "https://github.com/",
     },
     {
       id: '2',
@@ -287,23 +257,8 @@ import {
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tech:["Swift", "SwiftUI"],
       team:"I completed this project individually :D",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
       image: "/src/assets/shazamify.gif",
       landscape: true,
-      source_code_link: "https://github.com/",
     },
     {
       id: '3',
@@ -312,23 +267,8 @@ import {
         "Drink dispensor complete with venmo payment processing. Allows for dispensing of drinks when proper amount of money is received. Drinks dispensed using a peristaltic pump powered by an Arduino.",
       tech:["Arduino", "Python", "Tkinter", "Peristaltic Pump"],
       team:"This project was completed by myself and two other engineers",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
       image: tripguide,
       landscape: false,
-      source_code_link: "https://github.com/",
     },
     {
       id: '4',
@@ -337,23 +277,8 @@ import {
         "Developed a forum page for my school's Computer Science department website. Forum complete with user authentication, post creation/storage, persistant data, and frontend interface",
       tech:["AngularTS", "Python", "FastAPI", "SQLAlchemy", "PostgreSQL"],
       team:"This project was completed by myself and 3 other engineers for COMP 423: Introduction to Software Engineering",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
       image: "/src/assets/csxl-site-demo.gif",
       landscape: false,
-      source_code_link: "https://github.com/",
     },
     {
       id: '5',
@@ -361,23 +286,8 @@ import {
       description:"",
       tech:[],
       team:"",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
+      image: "/src/assets/akari-demo.gif",
       landscape: false,
-      source_code_link: "https://github.com/",
     },
     {
       id: '6',
@@ -385,23 +295,8 @@ import {
       description:"",
       tech:[],
       team:"",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
+      image: "/src/assets/horoscopey-demo.png",
       landscape: true,
-      source_code_link: "https://github.com/",
     },
     {
       id: '7',
@@ -409,23 +304,8 @@ import {
       description:"",
       tech:[],
       team:"",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
       image: "/src/assets/weatherapp2.0.gif",
       landscape: true,
-      source_code_link: "https://github.com/",
     },
     {
       id: '8',
@@ -433,23 +313,8 @@ import {
       description:"",
       tech:[],
       team:"",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
       image: "/src/assets/roadio-demo.gif",
       landscape: true,
-      source_code_link: "https://github.com/",
     },
   ];
   
