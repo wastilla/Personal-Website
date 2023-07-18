@@ -22,8 +22,7 @@ const Projects = () => {
           <div className="w-full flex flex-row justify-center align-middle self-center">
             <text className='text-black self-center pr-1'>{projects[selectedProject].name}</text>
             <img className="h-7 w-8"src="/src/assets/folder-icon.png "alt="Folder"/>
-          </div>
-          
+          </div>     
         </div>
         <div className='text-black p-3 bg-white drop-shadow-2xl border border-gray-400 flex flex-col'>
         <div className="self-center p-5 ">
@@ -31,7 +30,12 @@ const Projects = () => {
           </div>
           <text className='pb-1 text-2xl font-bold'>Description: </text>
           <text>{projects[selectedProject].description}</text>
-          
+          <text className='pb-1 text-2xl font-bold'>Experience: </text>
+          <div className='pl-4'>
+            {projects[selectedProject].experience.map((experience) =>(
+                <li>{experience}</li>
+              ))}
+          </div>
           <text className='pb-1 text-2xl font-bold'>Team: </text>
           <text className='pb-2'>{projects[selectedProject].team}</text>
           <text className='pb-1 text-2xl font-bold'>Tech Used:</text>
