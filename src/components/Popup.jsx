@@ -8,7 +8,6 @@ import Experience from './Experience';
 const Popup = (props) => {
 
     const {contentid} = props;
-    console.log(contentid)
 
     let childView;
     
@@ -21,6 +20,7 @@ const Popup = (props) => {
             break;
         case 'experience':
             childView = <Experience/>
+            break;
         case 'contact':
             childView = <Contact/>
             break;
@@ -40,7 +40,6 @@ const Popup = (props) => {
           </button> 
         </div>
         <div className='flex flex-col'>
-          {/* <div className="">h</div> */}
           <div className="p-3 bg-amber-50"> 
             {childView}  
           </div>
