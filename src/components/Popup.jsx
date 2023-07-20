@@ -4,7 +4,7 @@ import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
 import Experience from './Experience';
-import { about, folder, contact, xButton } from '../assets';
+import { about, folder, contact, xButton} from '../assets';
 
 const Popup = (props) => {
 
