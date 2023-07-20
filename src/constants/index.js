@@ -168,7 +168,7 @@ import {
       company_name: "App Team",
       icon:"/src/assets/appteam-logo.png",
       date: "Jan 2021 - Feb 2022",
-      description: "App Team Carolina is a student-run iOS development team based out of the University of North Carolina at Chapel Hill.",
+      description: "App Team Carolina is a student-run iOS development team based out of the University of North Carolina at Chapel Hill. App Team Carolina trains students in",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
