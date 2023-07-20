@@ -37,6 +37,7 @@ import contact from "./contact-icon.png";
 import xButton from "./x-button.png";
 import backButton from "./back-button.png"
 import akari from "./akari-demo.gif";
+import websiteLogo from "./website-logo.png"
 
 
 export {
@@ -75,4 +76,5 @@ export {
   xButton,
   backButton,
   akari,
+  websiteLogo,
 };
