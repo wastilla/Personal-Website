@@ -44,13 +44,13 @@ import {
     {
       id: "about",
       title: "About",
-      image_title:"/src/assets/about-icon.png",
+      image_title:"https://wastilla.github.io/Personal-Website/src/assets/about-icon.png",
       alt_image_title: "folder-image",
     },
     {
       id: "projects",
       title: "Projects",
-      image_title:"/src/assets/folder-icon.png",
+      image_title:"src/assets/folder-icon.png",
       alt_image_title: "folder-image",
     },
     {
