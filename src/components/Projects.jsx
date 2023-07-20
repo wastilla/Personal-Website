@@ -1,6 +1,7 @@
 import React from 'react'
 import {projects} from '../constants';
 import { useState } from 'react';
+import { backButton, folder } from '../assets';
 
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -16,12 +17,12 @@ const Projects = () => {
       <div className="flex flex-col">
         <div className='w-full flex flex-row pb-5'>
           <button className="text-black" onClick={() => setSelectedProject(null)}>
-          <img className=""src="/src/assets/back-button.png "alt="Folder"/>
+          <img className=""src={backButton} alt="back-button"/>
           </button>
           <text className='text-black pl-1 self-center'>Back</text>
           <div className="w-full flex flex-row justify-center align-middle self-center">
             <text className='text-black self-center pr-1'>{projects[selectedProject].name}</text>
-            <img className="h-7 w-8"src="/src/assets/folder-icon.png "alt="Folder"/>
+            <img className="h-7 w-8"src={folder} alt="Folder"/>
           </div>     
         </div>
         <div className='text-black p-3 bg-white drop-shadow-2xl border border-gray-400 flex flex-col'>
@@ -54,7 +55,7 @@ const Projects = () => {
       <div className="p-3 bg-white drop-shadow-2xl border border-gray-400 flex flex-wrap flex-row">
         {projects.map((project) =>(
           <button  onClick={() => handleButtonClick(project.id)} className="text-black p-2 scale-50">
-            <img src="/src/assets/folder-icon.png "alt="Folder"/>
+            <img src={folder}alt="Folder"/>
             <label className="text-3xl">{project.name}</label>
           </button>
         ))}

@@ -5,9 +5,4 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: '/Personal-Website/',
-  // build: {
-  //   outDir: 'dist',
-  //   base: '/Portfolio-Website/',
-  //   minify: true,
-  // },
 })

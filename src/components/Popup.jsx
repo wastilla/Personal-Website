@@ -4,25 +4,30 @@ import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
 import Experience from './Experience';
-import { about } from '../assets';
+import { about, folder, contact, xButton } from '../assets';
 
 const Popup = (props) => {
 
     const {contentid} = props;
 
     let childView;
+    let icon;
     
     switch (contentid){
         case 'about':
             childView = <About/>
+            icon = about
             break;
         case 'projects':
+            icon = folder;
             childView = <Projects/>
             break;
         case 'experience':
+            icon = folder;
             childView = <Experience/>
             break;
         case 'contact':
+            icon = contact;
             childView = <Contact/>
             break;
         }
@@ -32,12 +37,12 @@ const Popup = (props) => {
       <div className='flex flex-col space-y-2'>
         <div className="flex flex-row">
           <div className="flex basis-full">
-            <img className="h-7 w-8"src={contentid} alt="folder-image"/>
+            <img className="h-7 w-8"src={icon} alt="folder-image"/>
             <p>{contentid}</p>
           </div>
           
           <button className="justify-end" onClick={() => props.setTrigger(false)}>
-            <img className="h-7 w-7.5 hover:h-6"src='/src/assets/x-button.png' alt="folder-image"/>
+            <img className="h-7 w-7.5 hover:h-6"src={xButton} alt="folder-image"/>
           </button> 
         </div>
         <div className='flex flex-col'>

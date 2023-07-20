@@ -25,6 +25,7 @@ import {
     threejs,
     folder,
     about,
+    contact,
   } from "../assets";
   
   export const navLinks = [
@@ -58,13 +59,13 @@ import {
     {
       id: "experience",
       title: "Experience",
-      image_title:"/src/assets/experience-icon.png",
+      image_title:folder,
       alt_image_title: "folder-image",
     },
     {
       id: "contact",
       title: "Contact",
-      image_title:"/src/assets/contact-icon.png",
+      image_title:contact,
       alt_image_title: "folder-image",
     },
   ];

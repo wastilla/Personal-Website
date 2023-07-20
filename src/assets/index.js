@@ -32,7 +32,10 @@ import tripguide from "./tripguide.png";
 
 import folder from "./folder-icon.png";
 import about from "./about-icon.png";
-import startButton from "./start-button.png"
+import startButton from "./start-button.png";
+import contact from "./contact-icon.png";
+import xButton from "./x-button.png";
+import backButton from "./back-button.png";
 
 export {
   logo,
@@ -66,4 +69,7 @@ export {
   folder,
   about,
   startButton,
+  contact,
+  xButton,
+  backButton,
 };

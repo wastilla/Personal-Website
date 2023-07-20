@@ -4,7 +4,7 @@ import Popup from './Popup';
 import BottomBar from './BottomBar';
 
 import { useEffect, useState } from 'react'
-import { desktopButtons, about } from '../constants';
+import { desktopButtons } from '../constants';
 
 const Desktop = () => {
     const [PopUp, setPopUp] = useState(false);
