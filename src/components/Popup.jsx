@@ -4,6 +4,7 @@ import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
 import Experience from './Experience';
+import { about } from '../assets';
 
 const Popup = (props) => {
 
@@ -31,7 +32,7 @@ const Popup = (props) => {
       <div className='flex flex-col space-y-2'>
         <div className="flex flex-row">
           <div className="flex basis-full">
-            <img className="h-7 w-8"src={"/src/assets/" + contentid + "-icon.png"} alt="folder-image"/>
+            <img className="h-7 w-8"src={contentid} alt="folder-image"/>
             <p>{contentid}</p>
           </div>
           

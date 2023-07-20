@@ -24,6 +24,7 @@ import {
     tripguide,
     threejs,
     folder,
+    about,
   } from "../assets";
   
   export const navLinks = [
@@ -45,14 +46,14 @@ import {
     {
       id: "about",
       title: "About",
-      image_title: folder,
-      alt_image_title: "folder-image",
+      image_title: about,
+      alt_image_title: "about-icon",
     },
     {
       id: "projects",
       title: "Projects",
-      image_title:"./folder-icon.png",
-      alt_image_title: "folder-image",
+      image_title: folder,
+      alt_image_title: "projects-icon",
     },
     {
       id: "experience",
@@ -67,12 +68,6 @@ import {
       alt_image_title: "folder-image",
     },
   ];
-
-  export const about = [
-    {
-      name: "hshssh",
-    }
-  ]
   
   const services = [
     {

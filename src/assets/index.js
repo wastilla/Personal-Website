@@ -30,7 +30,9 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
-import folder from "./folder-icon.png"
+import folder from "./folder-icon.png";
+import about from "./about-icon.png";
+import startButton from "./start-button.png"
 
 export {
   logo,
@@ -62,4 +64,6 @@ export {
   jobit,
   tripguide,
   folder,
+  about,
+  startButton,
 };
