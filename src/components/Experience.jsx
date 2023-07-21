@@ -1,6 +1,7 @@
 import React from 'react'
 import { experiences } from '../constants';
 import { useState, useEffect } from 'react';
+import { backButton } from '../assets';
 
 const Experience = () => {
   const [selectedExperience, setSelectedExperience] = useState(null);
@@ -15,12 +16,16 @@ const Experience = () => {
       <div className="flex flex-col">
         <div className='w-full flex flex-row pb-5'>
           <button className="text-black" onClick={() => setSelectedExperience(null)}>
-          <img className="" src="/src/assets/back-button.png"alt="Folder"/>
+          <img className="" src={backButton} alt="Folder"/>
           </button>
-          <text className='text-black pl-1 self-center'>Back</text>
+          <text className='text-black pl-1 self-center pr-3'>Back</text>
           <div className="w-full flex flex-row justify-center align-middle self-center">
-            <text className='text-black self-center pr-1'>{experiences[selectedExperience].title}: {experiences[selectedExperience].company_name} </text>
-            <img className="h-8 w-8 rounded drop-shadow-2xl"src={experiences[selectedExperience].icon}alt="Folder"/>
+            <text className='text-black self-center'>{experiences[selectedExperience].title}:</text>
+            <div className="flex flex-row text-black justify-center self-center align-middle">
+              <text className='pr-1 self-center'>{experiences[selectedExperience].company_name}</text>
+              <img className="h-8 w-8 rounded drop-shadow-2xl"src={experiences[selectedExperience].icon}alt="Folder"/>
+            </div>
+            
           </div>   
         </div>
         <div className='text-black p-3 bg-white drop-shadow-2xl border border-gray-400 flex flex-col'>
