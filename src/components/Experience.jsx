@@ -38,9 +38,9 @@ const Experience = () => {
   } else {
     // Display the list of buttons
     return (
-      <div className="p-3 bg-white drop-shadow-2xl border border-gray-400 flex flex-wrap flex-row">
+      <div className="p-1 bg-white drop-shadow-2xl border border-gray-400 flex flex-wrap flex-row">
         {experiences.map((experience) =>(
-          <button  onClick={() => handleButtonClick(experience.id)} className="text-black p-2 scale-50 self-center flex flex-col">
+          <button  onClick={() => handleButtonClick(experience.id)} className="text-black scale-50 self-center flex flex-col">
             <img className="rounded-2xl drop-shadow-2xl w-32 self-center" src={experience.icon}alt="Folder"/>
             <label className="text-3xl self-center">{experience.company_name}</label>
           </button>

@@ -39,7 +39,7 @@ const Desktop = () => {
     }
 
   return (
-    <div className="flex h-fit">
+    <div className="flex h-fit z-0">
         <div className="flex flex-col">
             <div className="grid grid-rows-3 gap-0">
                 {desktopButtons.map((button) =>(
@@ -52,7 +52,10 @@ const Desktop = () => {
             </div>
            
         </div>
-        {contentId && <Popup trigger={PopUp} setTrigger={setPopUp} contentid={contentId}/>}
+        <div className="self-center align-middle pt-20 pb-20  pr-10 z-50">
+          {contentId && <Popup trigger={PopUp} setTrigger={setPopUp} contentid={contentId}/>}
+        </div>
+        
     </div>
   )
 }
