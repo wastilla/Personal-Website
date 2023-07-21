@@ -34,6 +34,10 @@ import {
     horoscopeyDemo,
     cvClock,
     roadioDemo,
+    walmartLogo,
+    appTeamLogo,
+    sustainibleLogo,
+    predictItLogo,
   } from "../assets";
   
   export const navLinks = [
@@ -157,56 +161,43 @@ import {
       id: "0",
       title: "iOS Engineer Intern",
       company_name: "Walmart",
-      icon: "/src/assets/walmart-logo.jpg",
+      icon: walmartLogo,
       date: "March 2020 - April 2021",
       description: "",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+      
       ],
     },
     {
       id: "1",
       title: "iOS Engineer/CMO",
       company_name: "App Team",
-      icon:"/src/assets/appteam-logo.png",
+      icon: appTeamLogo,
       date: "Jan 2021 - Feb 2022",
       description: "App Team Carolina is a student-run iOS development team based out of the University of North Carolina at Chapel Hill. App Team Carolina trains students in",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+    
       ],
     },
     {
       id: "2",
       title: "Product Management Intern",
       company_name: "Sustainible",
-      icon: "/src/assets/sustainible-logo.jpg",
+      icon: sustainibleLogo,
       date: "Jan 2022 - Jan 2023",
       description: "",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+       
       ],
     },
     {
       id: "3",
       title: "Intern",
       company_name: "PredictIt",
-      icon: "/src/assets/predictit-logo.jpg",
+      icon: predictItLogo,
       date: "Jan 2023 - Present",
       description: "",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
   ];

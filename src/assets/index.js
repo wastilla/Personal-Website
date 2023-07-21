@@ -45,6 +45,10 @@ import horoscopeyDemo from "./horoscopey-demo.png";
 import cvClock from "./cv-clock.png";
 import shazamifyDemo from "./shazamify.gif";
 import roadioDemo from "./roadio-demo.gif";
+import walmartLogo from "./walmart-logo.jpg";
+import predictItLogo from "./predictit-logo.jpg";
+import sustainibleLogo from "./sustainible-logo.jpg";
+import appTeamLogo from "./appteam-logo.png";
 
 
 export {
@@ -90,5 +94,9 @@ export {
   horoscopeyDemo,
   cvClock,
   shazamifyDemo,
-  roadioDemo
+  roadioDemo,
+  walmartLogo,
+  sustainibleLogo,
+  predictItLogo,
+  appTeamLogo,
 };
