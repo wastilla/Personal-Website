@@ -40,6 +40,11 @@ import akari from "./akari-demo.gif";
 import websiteLogo from "./website-logo.png";
 import luminaryDemo from "./luminary-demo-2.gif";
 import weatheryDemo from "./weatherapp2.0.gif";
+import csxlDemo from "./csxl-site-demo.gif";
+import horoscopeyDemo from "./horoscopey-demo.png";
+import cvClock from "./cv-clock.png";
+import shazamifyDemo from "./shazamify.gif";
+import roadioDemo from "./roadio-demo.gif";
 
 
 export {
@@ -81,4 +86,9 @@ export {
   websiteLogo,
   luminaryDemo,
   weatheryDemo,
+  csxlDemo,
+  horoscopeyDemo,
+  cvClock,
+  shazamifyDemo,
+  roadioDemo
 };

@@ -29,6 +29,11 @@ import {
     akari,
     weatheryDemo,
     luminaryDemo,
+    shazamifyDemo,
+    csxlDemo,
+    horoscopeyDemo,
+    cvClock,
+    roadioDemo,
   } from "../assets";
   
   export const navLinks = [
@@ -242,7 +247,7 @@ import {
       experience: ["Explore the intersection of hardware and software, broadening my knowledge of physical computing and embedded systems", "Gain practical knowledge in configuring and training OpenCV's convolutional neural networks for facial recognition tasks.", "Learn techniques to evaluate a model's performance, such as accuracy, precision, recall, and F1 score, enabling me to fine-tune the model and improve its performance.", "Experience building a GUI that interacts with hardware components using Tkinter and an LCD Screen."],
       tech:["Raspberri Pi", "Python", "Open CV", "Tkinter", "3D Printing", "Laser Cutting"],
       team:"This project was completed by myself and two other engineers",
-      image: "/src/assets/cv-clock.png",
+      image: cvClock,
       landscape: false,
     },
     {
@@ -264,7 +269,7 @@ import {
       experience: ["Work with external APIs such as ShazamKit and Spotify's API, enhancing my understanding of integrating third-party services into applications.", "Handle API requests, parsing responses, and efficiently integrate the obtained data into the app's functionalities.", "Use MVVM Design Pattern to separate concerns between files codebase"],  
       tech:["Swift", "SwiftUI", "ShazamKit"],
       team:"I completed this project individually :D",
-      image: "/src/assets/shazamify.gif",
+      image: shazamifyDemo,
       landscape: true,
     },
     {
@@ -286,7 +291,7 @@ import {
       experience: ["Utilize concepts of database management and how to create efficient and scalable data models", "Build RESTful API and ensure high-performance response times", "Use Angular components, modules, and services to build a responsive and intuitive user experience"],
       tech:["AngularTS", "Python", "FastAPI", "SQLAlchemy", "PostgreSQL"],
       team:"This project was completed by myself and 3 other engineers for COMP 423: Introduction to Software Engineering",
-      image: "/src/assets/csxl-site-demo.gif",
+      image: csxlDemo,
       landscape: false,
     },
     {
@@ -306,7 +311,7 @@ import {
       experience: ["Implemented functionality to allow users to select their zodiac sign and dynamically fetch horoscope data for today, yesterday, and tomorrow based on the selected zodiac sign","Demonstrate effective use of user defaults to provide a personalized and persistent user experience, allowing users to save and access their favorite horoscopes"],
       tech:["Swift", "SwiftUI", "User Defaults"],
       team:"I completed this project individually",
-      image: "/src/assets/horoscopey-demo.png",
+      image: horoscopeyDemo,
       landscape: true,
     },
     {
@@ -326,7 +331,7 @@ import {
       experience: ["Utilize Swift and SwiftUI to create an intuitive and visually appealing user interface.", "Implement algorithms and logic to analyze the trip data and calculate the predicted cost, considering factors like fuel consumption, average speed, road conditions, and weather"],
       tech:["Swift", "SwiftUI", "Python", "MapKit"],
       team:"I completed this project with 3 other engineers for HackNC 2022",
-      image: "/src/assets/roadio-demo.gif",
+      image: roadioDemo,
       landscape: true,
     },
   ];
