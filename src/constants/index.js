@@ -26,6 +26,9 @@ import {
     folder,
     about,
     contact,
+    akari,
+    weatheryDemo,
+    luminaryDemo,
   } from "../assets";
   
   export const navLinks = [
@@ -250,7 +253,7 @@ import {
       experience: ["Experience engaging in code reviews and receiving code feedback, leading to an understand of how these practices help foster a collaborative environment focused on code quality and readability.", "Participate in Agile development processes, including weekly stand-ups, sprint planning, and retrospectives, contributing to a dynamic and iterative development cycle.", "Utilize SwiftUI to match the visual styling of  Figma design, ensuring a consistent and cohesive user experience across the application."],
       tech:["Swift", "SwiftUI", "UIKit", "MapKit", "CoreLocation"],
       team:"This project is currently being completed on a production team of App Team Carolina. The team consists of 12 engineers, designers, and product managers.",
-      image: "/src/assets/luminary-demo-2.gif",
+      image: luminaryDemo,
       landscape: true,
     },
     {
@@ -293,7 +296,7 @@ import {
       experience: ["Implement game logic using Java and interface using JavaFX", "Experience implementing Model View Controller design pattern to separate concerns in an application"],
       tech:["Java", "JavaFX"],
       team:"I completed this project individually",
-      image: "/src/assets/akari-demo.gif",
+      image: akari,
       landscape: false,
     },
     {
@@ -313,7 +316,7 @@ import {
       experience: ["Integrate user input functionality to allow users to type in a location of their choice, dynamically fetching and displaying the weather information for that location.", "Showcase proficiency in working with APIs by integrating the OpenWeatherMap API, retrieving data using appropriate endpoints, parsing the JSON response, and creating models to capture JSON response"],
       tech:["Swift", "SwiftUI", "OpenWeatherMap API"],
       team:"I completed this project individually",
-      image: "/src/assets/weatherapp2.0.gif",
+      image: weatheryDemo,
       landscape: true,
     },
     {

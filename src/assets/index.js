@@ -37,7 +37,9 @@ import contact from "./contact-icon.png";
 import xButton from "./x-button.png";
 import backButton from "./back-button.png"
 import akari from "./akari-demo.gif";
-import websiteLogo from "./website-logo.png"
+import websiteLogo from "./website-logo.png";
+import luminaryDemo from "./luminary-demo-2.gif";
+import weatheryDemo from "./weatherapp2.0.gif";
 
 
 export {
@@ -77,4 +79,6 @@ export {
   backButton,
   akari,
   websiteLogo,
+  luminaryDemo,
+  weatheryDemo,
 };
