@@ -248,7 +248,7 @@ import {
         "Luminary aims to make navigating UNC's campus more accessible for those with mobility limitations. It allows users to find accessible routes curated to their specific needs and report accessibility concerns and barriers, which are displayed in a real-time feed. This project is currently in progress and I am working with a team of 10 designers, product managers, and developers to deliver the application to our client: Tar Heels at the Table.",
       experience: ["Experience engaging in code reviews and receiving code feedback, leading to an understand of how these practices help foster a collaborative environment focused on code quality and readability.", "Participate in Agile development processes, including weekly stand-ups, sprint planning, and retrospectives, contributing to a dynamic and iterative development cycle.", "Utilize SwiftUI to match the visual styling of  Figma design, ensuring a consistent and cohesive user experience across the application."],
       tech:["Swift", "SwiftUI", "UIKit", "MapKit", "CoreLocation"],
-      team:"This project is currently being completed on a production team of App Team Carolina. The team consists of 12 engineers, designers, and product managers.",
+      team:"This project is currently being completed on a production team of App Team Carolina. The team consists of 10 engineers, designers, and product managers.",
       image: luminaryDemo,
       landscape: true,
     },
