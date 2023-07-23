@@ -8,6 +8,7 @@ const About = (props) => {
   const [selectedPage, setSelectedPage] = useState("General");
 
   const handleButtonClick = (button) => {
+    console.log(button)
     setSelectedPage(button);
   };
 
