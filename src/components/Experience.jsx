@@ -44,7 +44,7 @@ const Experience = () => {
     return (
       <div className="bg-white drop-shadow-2xl border border-gray-400 flex flex-wrap flex-row">
         {experiences.map((experience) =>(
-          <button  onClick={() => handleButtonClick(experience.id)} className="text-black scale-50 self-center flex flex-col xs:-m-6 md:m-2">
+          <button  onClick={() => handleButtonClick(experience.id)} className="text-black scale-50 self-center flex flex-col -m-6">
             <img className="rounded-2xl drop-shadow-2xl w-32 self-center" src={experience.icon}alt="Folder"/>
             <label className="text-3xl self-center">{experience.company_name}</label>
           </button>
