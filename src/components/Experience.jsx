@@ -20,7 +20,6 @@ const Experience = () => {
           </button>
           <text className='text-black pl-1 self-center pr-3'>Back</text>
           <div className="w-full flex flex-row justify-center align-middle self-center">
-            <text className='text-black self-center'>{experiences[selectedExperience].title}:</text>
             <div className="flex flex-row text-black justify-center self-center align-middle">
               <text className='pr-1 self-center'>{experiences[selectedExperience].company_name}</text>
               <img className="h-8 w-8 rounded drop-shadow-2xl"src={experiences[selectedExperience].icon}alt="Folder"/>

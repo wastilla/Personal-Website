@@ -25,7 +25,7 @@ const Projects = () => {
             <img className="h-7 w-8"src={folder} alt="Folder"/>
           </div>     
         </div>
-        <div className='text-black p-3 bg-white drop-shadow-2xl border border-gray-400 flex flex-col'>
+        <div className='text-black w-fit p-3 bg-white drop-shadow-2xl border border-gray-400 flex flex-col'>
         <div className="self-center p-5 ">
             <img className={`${projects[selectedProject].landscape ?  "w-36 rounded-xl" : "rounded-xl max-h-80 min-w-full"}`} src={projects[selectedProject].image} alt="loading..." />
           </div>
