@@ -8,6 +8,24 @@ import CanvasLoader from '../Loader';
 
 const Computers = () => {
   const computer = useGLTF('./desktop_pc/scene.gltf')
+
+  function resizeCanvasToDisplaySize() {
+    const canvas = renderer.domElement;
+    // look up the size the canvas is being displayed
+    const width = canvas.clientWidth;
+    const height = canvas.clientHeight;
+  
+    // adjust displayBuffer size to match
+    if (canvas.width !== width || canvas.height !== height) {
+      // you must pass false here or three.js sadly fights the browser
+      renderer.setSize(width, height, false);
+      camera.aspect = width / height;
+      camera.updateProjectionMatrix();
+  
+      // update any render target sizes here
+    }
+  }
+
   return (
     <mesh>
       <hemisphereLight intensity={0.15}
@@ -19,6 +37,7 @@ const Computers = () => {
       penumbra={1}
       intensity={1}
       castShadow
+      onAfterRender={resizeCanvasToDisplaySize}
       shadow-mapSize={1024}/>
       <primitive 
       object ={computer.scene}
@@ -34,10 +53,12 @@ const ComputersCanvas = () => {
     <Canvas
     frameLoop="demand"
     shadows
-    camera={{position: [20, 3, 5], fov: 25}}
+    camera={{position: [25, 3, 5], fov: 25}}
     gl={{preserveDrawingBuffer: true}}> 
       <Suspense fallback = {<CanvasLoader/>}>
         <OrbitControls
+        autoRotate = {true}
+        autoRotateSpeed={5}
         enableZoom = {false}
         maxPolarAngle={Math.PI /2}
         minPolarAngle={Math.PI/2}
