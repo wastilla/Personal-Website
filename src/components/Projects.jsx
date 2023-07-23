@@ -52,9 +52,9 @@ const Projects = () => {
   } else {
     // Display the list of buttons
     return (
-      <div className="p-3 bg-white drop-shadow-2xl border border-gray-400 flex flex-wrap flex-row">
+      <div className="p-3 bg-white drop-shadow-2xl border border-gray-400 flex flex-wrap flex-row xs:justify-center sm:justify-start md:justify-start">
         {projects.map((project) =>(
-          <button  onClick={() => handleButtonClick(project.id)} className="text-black p-2 scale-50">
+          <button  onClick={() => handleButtonClick(project.id)} className="text-black p-2 scale-50 -m-4">
             <img src={folder}alt="Folder"/>
             <label className="text-3xl">{project.name}</label>
           </button>
