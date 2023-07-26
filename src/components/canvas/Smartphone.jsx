@@ -40,7 +40,7 @@ const Smartphone = () => {
       shadow-mapSize={1024}/>
       <primitive 
       object ={smartphone.scene}
-      scale={2.75}
+      scale={5.15}
       position={[0, -3.25, -1.5]}
       rotation={[-0.01, -0.2, -0.1]}/>
     </mesh>
@@ -52,7 +52,7 @@ const SmartphoneCanvas = () => {
     <Canvas
     frameLoop="demand"
     shadows
-    camera={{position: [5, 10, -10], fov: 50}}
+    camera={{position: [25, 3, -25], fov: 27}}
     gl={{preserveDrawingBuffer: true}}> 
       <Suspense fallback = {<CanvasLoader/>}>
         <OrbitControls

@@ -13,15 +13,15 @@ const General = () => {
             </div>
             <div className="sm:text-4xl md:text-4xl self-center justify-center align-middle flex flex-col space-y-6">
               <div className="justify-center align-middle self-center">
-                <div className="flex flex-col self-center -mx-8">
+                <div className="flex flex-col self-center -mx-32">
                   <text className='self-center -mb-10'>iOS Developer</text>
-                  <SmartphoneCanvas className="pb-2 h-fit"/>
+                  <SmartphoneCanvas className="pb-2 mb-2 -mx-11"/>
                 </div>
-                <div className="flex flex-col self-center -mx-8">
-                  <text className='self-center -mb-10'>Fullstack Developer</text>
+                <div className="flex flex-col self-center -mx-32">
+                  <text className='self-center mb-4'>Fullstack Developer</text>
                   <ComputersCanvas className="max-w-fit xs:w-2"/>
                 </div>
-                <div className="self-center flex flex-col space-y-1">
+                <div className="self-center flex flex-col space-y-1 -mx-32x">
                   <text className='self-center'>Student at UNC</text>
                 </div>
               </div>
