@@ -289,5 +289,14 @@ import {
       landscape: true,
     },
   ];
+
+  const contacts = [
+    {
+      id: '0',
+      name: 'instagram',
+      link: '',
+      icon: ''
+    }
+  ]
   
   export { technologies, experiences, projects };

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Vintage PC - 3D Model
+* source:	https://sketchfab.com/3d-models/vintage-pc-3d-model-36b3646f3b3d40b798bc7283655ff7d2
+* author:	ubadaubada123 (https://sketchfab.com/ubadaubada123)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Vintage PC - 3D Model" (https://sketchfab.com/3d-models/vintage-pc-3d-model-36b3646f3b3d40b798bc7283655ff7d2) by ubadaubada123 (https://sketchfab.com/ubadaubada123) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

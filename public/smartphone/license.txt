@@ -1,0 +1,11 @@
+Model Information:
+* title:	Smartphone
+* source:	https://sketchfab.com/3d-models/smartphone-380280333c9f4fb8a21a53d18f6789e6
+* author:	Manuel W. (https://sketchfab.com/nebulariser)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Smartphone" (https://sketchfab.com/3d-models/smartphone-380280333c9f4fb8a21a53d18f6789e6) by Manuel W. (https://sketchfab.com/nebulariser) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
