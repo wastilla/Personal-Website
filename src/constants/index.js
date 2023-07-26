@@ -82,25 +82,6 @@ import {
     },
   ];
   
-  const services = [
-    {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
-  ];
-  
   const technologies = [
     {
       name: "HTML 5",
@@ -162,10 +143,13 @@ import {
       title: "iOS Engineer Intern",
       company_name: "Walmart",
       icon: walmartLogo,
-      date: "March 2020 - April 2021",
-      description: "",
+      date: "",
+      description: "Software Engineer Intern at Walmart Global Tech. Work with a team of Android and iOS developers on Walmart's touch-free payment feature, Walmart Pay. As the only intern on the Mobile Pay team, I was able to gain an immersive experience into the world of iOS engineering by working with full-time engineers and by tackling real problems.",
       points: [
-      
+        "Implement features for Walmart Pay using Swift and UIKit, adhering to agile development practices and meeting tight deadlines.",
+        "Participate in the full software development lifecycle, including design, development, testing, and deployment of new features and bug fixes",
+        "Write comprehensive unit tests using XCTest for new and existing code to push test coverge well above the company standard",
+        "Spearhead redesign of internal testing feature for Walmart Pay functionality using Swift, UIKit, Combine, GraphQL and Apollo"
       ],
     },
     {
@@ -173,21 +157,25 @@ import {
       title: "iOS Engineer/CMO",
       company_name: "App Team",
       icon: appTeamLogo,
-      date: "Jan 2021 - Feb 2022",
-      description: "App Team Carolina is a student-run iOS development team based out of the University of North Carolina at Chapel Hill. App Team Carolina trains students in",
-      points: [
-    
+      date: "",
+      description: "App Team Carolina is a student-run iOS development team based out of the University of North Carolina at Chapel Hill. App Team Carolina trains students in  the fields of iOS development and UI/UX design to create exciting apps for anyone and everyone to enjoy.",
+      points: [ 
+        "Cheif Marketing Officer: Lead all marketing and external relationship efforts of the organization and manage a marketing team",
+        "Production iOS Developer: Work with a team of designers, PMs, and developers to develop an iOS application for a client",
+        "Teaching Assistant: Lead a cohort of ~20 peers in learning fundamental and advanced iOS concepts each semester"
       ],
     },
     {
       id: "2",
       title: "Product Management Intern",
-      company_name: "Sustainible",
+      company_name: "Sustainable",
       icon: sustainibleLogo,
-      date: "Jan 2022 - Jan 2023",
-      description: "",
+      date: "",
+      description: "Product management intern for a startup company developing an AI business assistant and health monitor for entrepreneurs to track their business health.",
       points: [
-       
+       "Develop new features for a business model assessment tool to help entrepreneurs determine how they can improve their business model.",
+       "Represent the company during panels with users and small business owners to determine pain points and areas of improvement",
+       "Communicate needs of the customer to the leadership and development teams, influencing the direction of the company's development effots"
       ],
     },
     {
@@ -195,37 +183,12 @@ import {
       title: "Intern",
       company_name: "PredictIt",
       icon: predictItLogo,
-      date: "Jan 2023 - Present",
-      description: "",
+      date: "",
+      description: "Intern for PredictIt, an online prediction market that offers exchanges on political and financial events",
       points: [
+        "Analyze automation testing of SQL injection change",
+        "Collect and analyze data sets to show the odds of nominees for the Democratic Party"
       ],
-    },
-  ];
-  
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
   
@@ -327,4 +290,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { technologies, experiences, projects };
