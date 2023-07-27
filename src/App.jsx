@@ -2,47 +2,26 @@ import { BrowserRouter } from "react-router-dom";
 import{ About, Contact, Experience, Navbar, Feedbacks, Hero, Tech, Works, StarsCanvas} from './components';
 import Desktop from "./components/Desktop";
 import BottomBar from "./components/BottomBar";
-import { useState, useEffect } from "react";
+import LoadingScreen from "./components/LoadingScreen";
+import './index.css'
 
 const App = () => {
-  const [screenSize, setScreenSize] = useState(getCurrentDimension());
-
-  	function getCurrentDimension(){
-    	return {
-      		width: window.innerWidth,
-      		height: window.innerHeight
-    	}
-  	}
-  
-  	useEffect(() => {
-    		const updateDimension = () => {
-      			setScreenSize(getCurrentDimension())
-    		}
-    		window.addEventListener('resize', updateDimension);
-        console.log(screenSize.width)
-		
-    		return(() => {
-        		window.removeEventListener('resize', updateDimension);
-    		})
-  	}, [screenSize])
+ 
 
   return ( 
-    <BrowserRouter className="bg-white">
-      <div className="App flex flex-col relative z-0 bg-primary min-h-screen bg-[url('/src/assets/windows_bg.png')] bg-cover bg-no-repeat bg-center justify-between">
-        
-        {/* <Navbar className=""/> */}
-        {/* <Hero /> */}
-        {/* <div className=""> */}
-        <div className="h-fit">
-            <Desktop/> 
+      <BrowserRouter className="">
+        <LoadingScreen className="absolute w-full h-screen top-0 z-20 animate-spin"/>
+        <div className="App absolute w-full top-0 -z-50 flex flex-col bg-primary min-h-screen bg-[url('/src/assets/windows_bg.png')] bg-cover bg-no-repeat bg-center justify-between">  
+          
+          <div className="h-fit">
+              <Desktop/> 
+          </div>
+          <BottomBar/>
         </div>
-
-        <BottomBar/>
         
-
-      </div>
+      </BrowserRouter>
       
-    </BrowserRouter>
+  
   )
 }
 

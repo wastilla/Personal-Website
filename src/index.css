@@ -32,6 +32,8 @@ button{
   flex-direction: column;
   height:100vh;
   background-color: #000000;
+  z-index: 100;
+  transition: opacity 0.5s ease-in-out;
 }
 .hash-span {
   margin-top: -100px;
