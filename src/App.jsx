@@ -10,7 +10,7 @@ const App = () => {
   return ( 
       <BrowserRouter className="">
         <LoadingScreen className="absolute w-full h-screen top-0 z-20"/>
-        <div className="App absolute w-full top-0 z-10 flex flex-col bg-primary min-h-screen bg-[url('/src/assets/windows_bg.png')] bg-cover bg-no-repeat bg-center justify-between">  
+        <div loading="lazy"className="App absolute w-full top-0 z-10 flex flex-col bg-primary min-h-screen bg-[url('/src/assets/windows_bg.png')] bg-cover bg-no-repeat bg-center justify-between">  
         {/* <div className="absolute pointer-events-none top-0 z-30 bg-[url('/src/assets/pixalated-screen.jpg')] bg-cover bg-repeat bg-center w-full h-full opacity-10"></div> */}
           
           <div className="h-fit">
