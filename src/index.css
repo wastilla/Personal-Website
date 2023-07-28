@@ -25,6 +25,28 @@ button{
   cursor: url("./assets/pointer-cursor.png"), auto;
 }
 
+@keyframes shutdown {
+  0% { 
+    opacity: 1; 
+  }
+  8%, 46% { 
+    transform: scale(1, 1); 
+    opacity: 1; 
+  }
+  50% { 
+    transform: scale(1, 0.02); 
+    opacity: 0.8; 
+  }
+  55%, 100% { 
+    transform: scale(0, 0); 
+    opacity: 0.3; 
+  }
+}
+
+.tv-off {
+  animation: shutdown 5s cubic-bezier(0.4, 0, 0.6, 1);
+}
+
 .loadingScreen{
   align-items: center;
   justify-content: center;

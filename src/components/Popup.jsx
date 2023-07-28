@@ -33,7 +33,7 @@ const Popup = (props) => {
         }
 
   return (props.trigger) ? (
-    <div className="drop-shadow-xl self-center z-10 w-fit align-middle justify-self-center bg-[url('/src/assets/bottom-bar.png')] bg-cover rounded-lg p-2 pt-2 pb-2">
+    <div className="drop-shadow-xl self-center w-fit align-middle justify-self-center bg-[url('/src/assets/bottom-bar.png')] bg-cover rounded-lg p-2 pt-2 pb-2">
       <div className='flex flex-col space-y-2'>
         <div className="flex flex-row">
           <div className="flex basis-full">

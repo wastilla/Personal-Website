@@ -20,6 +20,9 @@ module.exports = {
       },
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
+        "pixelated": "url('/src/assets/pixelated-screen.jpg')",
+        "flicker": "url('/src/assets/film-damage-flicker.gif')",
+
       },
     },
   },

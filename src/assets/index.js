@@ -49,6 +49,10 @@ import walmartLogo from "./walmart-logo.jpg";
 import predictItLogo from "./predictit-logo.jpg";
 import sustainibleLogo from "./sustainible-logo.jpg";
 import appTeamLogo from "./appteam-logo.png";
+import websiteLogoBlack from "./website-logo-black.png";
+import loadingBar from "./loading.gif";
+import flicker from "./film-damage-flicker.gif";
+import pixelated from "./pixelated-screen.jpg";
 
 
 export {
@@ -99,4 +103,8 @@ export {
   sustainibleLogo,
   predictItLogo,
   appTeamLogo,
+  websiteLogoBlack,
+  loadingBar,
+  flicker,
+  pixelated
 };
