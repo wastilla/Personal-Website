@@ -2,6 +2,7 @@ import React from 'react'
 import { websiteLogo } from '../assets'
 import { ComputersCanvas } from './canvas'
 import SmartphoneCanvas from './canvas/Smartphone'
+import GradcapCanvas from './canvas/Gradcap'
 
 const General = () => {
 
@@ -21,8 +22,9 @@ const General = () => {
                   <text className='self-center mb-4'>Fullstack Developer</text>
                   <ComputersCanvas className="max-w-fit xs:w-2"/>
                 </div>
-                <div className="self-center flex flex-col space-y-1 -mx-32x">
-                  <text className='self-center'>Student at UNC</text>
+                <div className="self-center flex flex-col space-y-1 -mx-32">
+                  <text className='self-center -mb-8'>Student at UNC</text>
+                  <GradcapCanvas className="w-5 pb-2 mb-2 -mx-32"/>
                 </div>
               </div>
             </div>

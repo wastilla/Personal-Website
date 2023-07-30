@@ -6,7 +6,7 @@ import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 import CanvasLoader from '../Loader';
 
 const Smartphone = () => {
-  const smartphone = useGLTF('./smartphone/scene.gltf')
+  const smartphone = useGLTF('./iphone-13/scene.gltf')
 
   function resizeCanvasToDisplaySize() {
     const canvas = renderer.domElement;
@@ -40,7 +40,7 @@ const Smartphone = () => {
       shadow-mapSize={1024}/>
       <primitive 
       object ={smartphone.scene}
-      scale={5.15}
+      scale={0.015}
       position={[0, -3.25, -1.5]}
       rotation={[-0.01, -0.2, -0.1]}/>
     </mesh>
