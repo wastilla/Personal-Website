@@ -14,7 +14,7 @@ const Projects = () => {
   if(selectedProject) {
     // Display the content associated with the selected button
     return (
-      <div className="flex flex-col">
+      <div className="popup flex flex-col">
         <div className='w-full flex flex-row pb-5'>
           <button className="text-black" onClick={() => setSelectedProject(null)}>
           <img className=""src={backButton} alt="back-button"/>

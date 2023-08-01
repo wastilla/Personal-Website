@@ -9,7 +9,6 @@ const LoadingScreen = () => {
     const [animate, setAnimate] = useState(false);
 
     useEffect(() => {
-        console.log(loading.valueOf())
         const l = setTimeout(() => {
         
           setAnimate(true);
