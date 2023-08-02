@@ -11,11 +11,11 @@ const LoadingScreen = () => {
     useEffect(() => {
         const l = setTimeout(() => {
         
-          setAnimate(true);
-          const close = setTimeout(() => { 
-            setLoading(false)
-            return () => clearTimeout(close);
-        }, 5000);
+            setAnimate(true);
+            const close = setTimeout(() => { 
+                setLoading(false)
+                return () => clearTimeout(close);
+            }, 5000);
 
         }, 10000); 
         

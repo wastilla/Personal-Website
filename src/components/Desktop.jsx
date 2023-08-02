@@ -52,7 +52,7 @@ const Desktop = () => {
            
         </div>
         <div className="self-center align-middle pt-20 pb-20  pr-10">
-          { PopUp ? contentId && <Popup className="popup" trigger={PopUp} setTrigger={setPopUp} contentid={contentId}/> : ""}
+          { PopUp ? contentId && <Popup className={`${PopUp ? '' : 'tv-off'}`} trigger={PopUp} setTrigger={setPopUp} contentid={contentId}/> : ""}
         </div>
         
     </div>
