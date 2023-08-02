@@ -4,10 +4,12 @@ import Projects from './Projects';
 import Contact from './Contact';
 import Experience from './Experience';
 import { about, folder, contact, xButton} from '../assets';
+import { useState } from 'react';
 
 const Popup = (props) => {
 
     const {contentid} = props;
+    const [open, setOpen] = useState(true);
 
 
     let childView;
@@ -31,9 +33,16 @@ const Popup = (props) => {
             childView = <Contact/>
             break;
         }
+  function closePopUp(){
+    setOpen(false)
+    const timer = setTimeout(() => {
+      props.setTrigger(false)
+    }, 510);
+    
+  }
     
   return (props.trigger) ? (
-    <div className={`popup drop-shadow-xl self-center w-fit align-middle justify-self-center bg-[url('/src/assets/bottom-bar.png')] bg-cover rounded-lg p-2 pt-2 pb-2`}>
+    <div className={`${open ? '' : "scale-0"} transition ease-in-out duration-500 popup drop-shadow-xl self-center w-fit align-middle justify-self-center bg-[url('/src/assets/bottom-bar.png')] bg-cover rounded-lg p-2 pt-2 pb-2`}>
       <div className='flex flex-col space-y-2'>
         <div className="flex flex-row">
           <div className="flex basis-full">
@@ -41,7 +50,7 @@ const Popup = (props) => {
             <p>{contentid}</p>
           </div>
           
-          <button className="justify-end" onClick={() => props.setTrigger(false)}>
+          <button className="justify-end" onClick={() => closePopUp()}>
             <img className="h-7 w-7.5 hover:h-6"src={xButton} alt="folder-image"/>
           </button> 
         </div>
