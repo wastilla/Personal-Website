@@ -13,7 +13,7 @@ export const Datetime = () => {
     });
 
     return(
-        <div className="whitespace-nowrap">
+        <div className="whitespace-nowrap text-xl">
             <p>{Moment(date).format('HH:mm')} {Moment(date).format('MMM D')}</p>
         </div>
     )

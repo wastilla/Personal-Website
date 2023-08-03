@@ -9,7 +9,10 @@ export const BottomBar = () => {
             <div className="basis-11/12 -mt-1.5 -mb-2">
                 <img className="h-12" src={startButton} alt="folder-image"/>
             </div>
-            <Datetime className="basis-1/12 pr-20 align-middle"/>
+            <div className="pl-3 pr-3 flex basis-1/12 bg-[url('/src/assets/tb-2.png')] bg-repeat-x bg-cover shadow sm:bg-contain h-8 -mt-2 -mb-2 rounded-l-lg">
+                <Datetime className="  align-middle self-center justify-center"/>
+            </div>
+            
         </div>
     )
 }
