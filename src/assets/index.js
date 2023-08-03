@@ -50,9 +50,9 @@ import predictItLogo from "./predictit-logo.jpg";
 import sustainibleLogo from "./sustainible-logo.jpg";
 import appTeamLogo from "./appteam-logo.png";
 import websiteLogoBlack from "./website-logo-black.png";
-import loadingBar from "./loading.gif";
-import flicker from "./film-damage-flicker.gif";
-import pixelated from "./pixelated-screen.jpg";
+import breifcase from "./breifcase-icon.png";
+import camera from "./camera-icon.png";
+import email from "./email-icon.png";
 
 
 export {
@@ -104,7 +104,7 @@ export {
   predictItLogo,
   appTeamLogo,
   websiteLogoBlack,
-  loadingBar,
-  flicker,
-  pixelated
+  breifcase,
+  camera,
+  email
 };

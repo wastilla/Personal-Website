@@ -38,6 +38,9 @@ import {
     appTeamLogo,
     sustainibleLogo,
     predictItLogo,
+    camera,
+    breifcase,
+    email
   } from "../assets";
   
   export const navLinks = [
@@ -81,61 +84,27 @@ import {
       alt_image_title: "folder-image",
     },
   ];
-  
-  const technologies = [
+
+  const contacts = [
     {
-      name: "HTML 5",
-      icon: html,
+      id: "0",
+      name: "email",
+      icon: email,
+      link: "mailto:wastilla@ad.unc.edu"
     },
     {
-      name: "CSS 3",
-      icon: css,
+      id: "1",
+      name: "LinkedIn",
+      icon: breifcase,
+      link: "https://www.linkedin.com/in/will-astilla/"
     },
     {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
-  ];
+      id: "2",
+      name: "Instagram",
+      icon: camera,
+      link: "https://www.instagram.com/willastilla/"
+    }
+  ]
   
   const experiences = [
     {
@@ -289,14 +258,5 @@ import {
       landscape: true,
     },
   ];
-
-  const contacts = [
-    {
-      id: '0',
-      name: 'instagram',
-      link: '',
-      icon: ''
-    }
-  ]
   
-  export { technologies, experiences, projects };
+  export { experiences, projects, contacts };
