@@ -27,7 +27,7 @@ const Projects = () => {
         </div>
         <div className='text-black w-fit p-3 bg-white drop-shadow-2xl border border-gray-400 flex flex-col'>
         <div className="self-center p-5 ">
-            <img className={`${projects[selectedProject].landscape ?  "w-36 rounded-xl" : "rounded-xl max-h-80 min-w-full"}`} src={projects[selectedProject].image} loading="lazy"/>
+            <img className={`${projects[selectedProject].landscape ?  "w-36 rounded-xl" : "rounded-xl max-h-80 min-w-full"}`} src={projects[selectedProject].image} loading="eager"/>
           </div>
           <text className='pb-1 text-2xl font-bold'>Description: </text>
           <text>{projects[selectedProject].description}</text>

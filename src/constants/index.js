@@ -199,7 +199,7 @@ import {
       id: '3',
       name: "House Tab",
       description:
-        "My friends and I collaborated on a project where we built a drink dispenser using an Arduino, peristaltic pump, and an LCD Screen. Through programming and integration with Venmo's API, the dispenser only dispenses liquid when payment was received. This project merged hardware, software, and payment integration to create a unique and interactive experience for users.",
+        "Build an automated drink dispenser using an Arduino, payment processing (via Venmo), peristaltic pump, and an LCD Screen. Through integration with Venmo's API, the dispenser only dispenses liquid when payment was received. This project merged hardware, software, and payment integration to create a unique and interactive experience for users.",
       experience: ["Utilize Python and Arduino libraries to control the dispenser's functionality, ensuring precise measurements and controlled liquid dispensing", "Utilize Tkinter to create a visually appealing interface for users to interact with the dispenser", "Integrate Venmo's API, allowing users to make payments and verify correct transaction amounts before the dispenser activates"],
       tech:["Arduino", "Python", "Tkinter", "Peristaltic Pump"],
       team:"This project was completed by myself and two other engineers",
