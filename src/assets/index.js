@@ -54,6 +54,7 @@ import breifcase from "./breifcase-icon.png";
 import camera from "./camera-icon.png";
 import email from "./email-icon.png";
 import pixelComputer from "./computer.png";
+import hourglass from "./better-hour-glass.gif";
 
 
 export {
@@ -108,5 +109,6 @@ export {
   breifcase,
   camera,
   email,
-  pixelComputer
+  pixelComputer,
+  hourglass
 };
