@@ -1,6 +1,6 @@
 import React from 'react'
 import Datetime from "./Datetime";
-import { startButton } from '../assets';
+import { pixelComputer } from '../assets';
 
 export const BottomBar = () => {
 
@@ -9,7 +9,7 @@ export const BottomBar = () => {
             <div className="basis-11/12">
                 {/* <img className="h-12" src={startButton} alt="folder-image"/> */}
                 <div className="pt-1.5 pl-3 flex flex-row bg-[url('/src/assets/green-bg.png')] w-fit bg-cover h-10 shadow-2xl rounded-r-lg space-x-2">
-                    <img src="/src/assets/computer.png" className="w-8 h-8"/>
+                    <img src={pixelComputer} className="w-8 h-8"/>
                   <text className="startLogo pr-3 text-xl">wastilla</text>
                 </div>
             </div>
