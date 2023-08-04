@@ -40,12 +40,12 @@ const Experience = () => {
       </div>
     );
   } else {
-    // Display the list of buttons
+    // Display the list of experience buttons
     return (
       <div className="bg-white drop-shadow-2xl border border-gray-400 flex flex-wrap flex-row justify-center">
         {experiences.map((experience) =>(
           <button  onClick={() => handleButtonClick(experience.id)} className="text-black scale-50 self-center flex flex-col -m-6 md:-m-1">
-            <img className="rounded-2xl drop-shadow-2xl w-32 self-center" src={experience.icon}alt="Folder"/>
+            <img className="rounded-2xl drop-shadow-2xl w-32 self-center" src={experience.icon}alt="Folder" loading="lazy"/>
             <label className="text-3xl self-center">{experience.company_name}</label>
           </button>
         ))}
