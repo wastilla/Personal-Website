@@ -113,10 +113,10 @@ import {
       company_name: "Walmart",
       icon: walmartLogo,
       date: "",
-      description: "Software Engineer Intern at Walmart Global Tech. Work with a team of Android and iOS developers on Walmart's touch-free payment feature, Walmart Pay. As the only intern on the Mobile Pay team, I was able to gain an immersive experience into the world of iOS engineering by working with full-time engineers and by tackling real problems.",
+      description: "iOS Engineering Intern at Walmart Global Tech. Work with a team of Android and iOS developers on Walmart's touch-free payment feature, Walmart Pay. As the only intern on the Mobile Pay team, I was able to gain an immersive experience into the world of iOS engineering by working with full-time engineers and by tackling real problems.",
       points: [
         "Implement features for Walmart Pay using Swift and UIKit, adhering to agile development practices and meeting tight deadlines.",
-        "Participate in the full software development lifecycle, including design, development, testing, and deployment of new features and bug fixes",
+        "Participate in the full software development lifecycle, including design, development, testing, and deployment for a feature with 22 million monthly users",
         "Write comprehensive unit tests using XCTest for new and existing code to push test coverge well above the company standard",
         "Spearhead redesign of internal testing feature for Walmart Pay functionality using Swift, UIKit, Combine, GraphQL and Apollo"
       ],
@@ -127,7 +127,7 @@ import {
       company_name: "App Team",
       icon: appTeamLogo,
       date: "",
-      description: "App Team Carolina is a student-run iOS development team based out of the University of North Carolina at Chapel Hill. App Team Carolina trains students in  the fields of iOS development and UI/UX design to create exciting apps for anyone and everyone to enjoy.",
+      description: "iOS Developer and Cheif Marketing Officer at App Team Carolina: a student-run iOS development team based out of the University of North Carolina at Chapel Hill. App Team Carolina trains students in  the fields of iOS development and UI/UX design to create exciting apps for anyone and everyone to enjoy.",
       points: [ 
         "Cheif Marketing Officer: Lead all marketing and external relationship efforts of the organization and manage a marketing team",
         "Production iOS Developer: Work with a team of designers, PMs, and developers to develop an iOS application for a client",
@@ -166,7 +166,7 @@ import {
       id: '0',
       name: "CV Clock",
       description:
-        "A clock that harnesses the power of computer vision and facial recognition to help our unpunctual friends. This clock can be trained to recognize a specific individual and, when they look at the clock, it will display a time 15 minutes in the future in an atempt to get these individuals out of the door faster.",
+        "2023 BEaM Makerfest Winner: Best Overall Project. A clock that harnesses the power of computer vision and facial recognition to help our unpunctual friends. This clock can be trained to recognize a specific individual and, when they look at the clock, it will display a time 15 minutes in the future in an atempt to get these individuals out of the door faster.",
       experience: ["Explore the intersection of hardware and software, broadening my knowledge of physical computing and embedded systems", "Gain practical knowledge in configuring and training OpenCV's convolutional neural networks for facial recognition tasks.", "Learn techniques to evaluate a model's performance, such as accuracy, precision, recall, and F1 score, enabling me to fine-tune the model and improve its performance.", "Experience building a GUI that interacts with hardware components using Tkinter and an LCD Screen."],
       tech:["Raspberri Pi", "Python", "Open CV", "Tkinter", "3D Printing", "Laser Cutting"],
       team:"This project was completed by myself and two other engineers",
@@ -177,8 +177,8 @@ import {
       id: '1',
       name: "Luminary",
       description:
-        "Luminary aims to make navigating UNC's campus more accessible for those with mobility limitations. It allows users to find accessible routes curated to their specific needs and report accessibility concerns and barriers, which are displayed in a real-time feed. This project is currently in progress and I am working with a team of 10 designers, product managers, and developers to deliver the application to our client: Tar Heels at the Table.",
-      experience: ["Experience engaging in code reviews and receiving code feedback, leading to an understand of how these practices help foster a collaborative environment focused on code quality and readability.", "Participate in Agile development processes, including weekly stand-ups, sprint planning, and retrospectives, contributing to a dynamic and iterative development cycle.", "Utilize SwiftUI to match the visual styling of  Figma design, ensuring a consistent and cohesive user experience across the application."],
+        "iOS app aiming to make navigating UNC's campus more accessible for those with mobility limitations. Luminary allows users to find accessible routes curated to their specific needs and report accessibility concerns and barriers, which are displayed in a real-time feed. This project is currently in progress and I am working with a team of 10 designers, product managers, and developers to deliver the application to our client: Tar Heels at the Table.",
+      experience: ["Use SwiftUI, MapKit, and geocoding tehcniques to create an intuitive experience for users reporting an accessibility concern (shown in the gif above)", "Experience engaging in code reviews and receiving code feedback, leading to an understand of how these practices help foster a collaborative environment focused on code quality and readability.", "Participate in Agile development processes, including weekly stand-ups, sprint planning, and retrospectives, contributing to a dynamic and iterative development cycle.", "Utilize SwiftUI to match the visual styling of  Figma design, ensuring a consistent and cohesive user experience across the application."],
       tech:["Swift", "SwiftUI", "UIKit", "MapKit", "CoreLocation"],
       team:"This project is currently being completed on a production team of App Team Carolina. The team consists of 10 engineers, designers, and product managers.",
       image: luminaryDemo,
@@ -197,20 +197,19 @@ import {
     },
     {
       id: '3',
-      name: "House Tab",
-      description:
-        "Build an automated drink dispenser using an Arduino, payment processing (via Venmo), peristaltic pump, and an LCD Screen. Through integration with Venmo's API, the dispenser only dispenses liquid when payment was received. This project merged hardware, software, and payment integration to create a unique and interactive experience for users.",
-      experience: ["Utilize Python and Arduino libraries to control the dispenser's functionality, ensuring precise measurements and controlled liquid dispensing", "Utilize Tkinter to create a visually appealing interface for users to interact with the dispenser", "Integrate Venmo's API, allowing users to make payments and verify correct transaction amounts before the dispenser activates"],
-      tech:["Arduino", "Python", "Tkinter", "Peristaltic Pump"],
-      team:"This project was completed by myself and two other engineers",
-      image: null,
-      landscape: false,
-    },
+      name: "Road.io",
+      description:"HackNC 2022 Winner: Best User Experience. Mobile app to assist in road trip planning by leveraging 3rd party APIs to analyze the trip and predict the cost. This app empowers users to make informed decisions by providing accurate road-trip cost estimates based on factors such as distance, fuel prices, and weather",
+      experience: ["Utilize Swift and SwiftUI to create an intuitive and visually appealing user interface.", "Implement algorithms and logic to analyze the trip data and calculate the predicted cost, considering factors like fuel consumption, average speed, road conditions, and weather"],
+      tech:["Swift", "SwiftUI", "Python", "MapKit"],
+      team:"I completed this project with 3 other engineers for HackNC 2022",
+      image: roadioDemo,
+      landscape: true,
+    }, 
     {
       id: '4',
-      name: "CSXL Site",
+      name: "CSXL Forum",
       description:
-        "Developed a forum page for my school's Computer Science department website. Forum is complete with user authentication, post creation/storage, persistant data, and frontend interface.",
+        "A forum page for my school's Computer Science department website. Forum is complete with user authentication, post creation/storage, persistant data, and frontend interface.",
       experience: ["Utilize concepts of database management and how to create efficient and scalable data models", "Build RESTful API and ensure high-performance response times", "Use Angular components, modules, and services to build a responsive and intuitive user experience"],
       tech:["AngularTS", "Python", "FastAPI", "SQLAlchemy", "PostgreSQL"],
       team:"This project was completed by myself and 3 other engineers for COMP 423: Introduction to Software Engineering",
@@ -249,14 +248,16 @@ import {
     },
     {
       id: '8',
-      name: "Road.io",
-      description:"Mobile app to assist in road trip planning by leveraging 3rd party APIs to analyze the trip and predict the cost. This app empowers users to make informed decisions by providing accurate cost estimates based on factors such as distance, fuel prices, and weather",
-      experience: ["Utilize Swift and SwiftUI to create an intuitive and visually appealing user interface.", "Implement algorithms and logic to analyze the trip data and calculate the predicted cost, considering factors like fuel consumption, average speed, road conditions, and weather"],
-      tech:["Swift", "SwiftUI", "Python", "MapKit"],
-      team:"I completed this project with 3 other engineers for HackNC 2022",
-      image: roadioDemo,
-      landscape: true,
+      name: "House Tab",
+      description:
+        "Automated drink dispenser built using an Arduino, payment processing (via Venmo), peristaltic pump, and an LCD Screen. Through integration with Venmo's API, the dispenser only dispenses liquid when payment was received. This project merged hardware, software, and payment integration to create a unique and interactive experience for users.",
+      experience: ["Utilize Python and Arduino libraries to control the dispenser's functionality, ensuring precise measurements and controlled liquid dispensing", "Utilize Tkinter to create a visually appealing interface for users to interact with the dispenser", "Integrate Venmo's API, allowing users to make payments and verify correct transaction amounts before the dispenser activates"],
+      tech:["Arduino", "Python", "Tkinter", "Peristaltic Pump"],
+      team:"This project was completed by myself and two other engineers",
+      image: null,
+      landscape: false,
     },
+    
   ];
   
   export { experiences, projects, contacts };
